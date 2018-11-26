@@ -4,4 +4,8 @@
   <artifactId>head-first-java</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
+  <modules>
+  	<module>chap02</module>
+  	<module>chap03</module>
+  </modules>
 </project>

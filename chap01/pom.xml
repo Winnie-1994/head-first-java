@@ -6,4 +6,5 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>chap01</artifactId>
+  <description>认识JAVA</description>
 </project>

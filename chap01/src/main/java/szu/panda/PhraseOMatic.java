@@ -1,5 +1,10 @@
 package szu.panda;
 
+/**
+* @author: wunt
+* @date: 2018-11-24 
+* @description: 专家术语学习机，通过随机数字组合出专家术语
+*/
 public class PhraseOMatic {
     public static void main(String[] args) {
         String[] wordListOne = {"24/7", "multi-Tier", "30,000 foot", "B-to-B",
@@ -10,9 +15,12 @@ public class PhraseOMatic {
                 "focused", "leveraged", "aligned", "targeted", "shared", "cooperative", "accelerated"};
         String[] wordListThree = {"process", "tipping-point", "solution", "architecture", "core competency",
                 "strategy", "mindshare", "portal", "space", "vision", "paradigm", "mission"};
+        
         int oneLength = wordListOne.length;
         int twoLength = wordListTwo.length;
         int threeLength = wordListThree.length;
+        
+        //产生随机数字
         int rand1 = (int) (Math.random() * oneLength);
         int rand2 = (int) (Math.random() * twoLength);
         int rand3 = (int) (Math.random() * threeLength);
